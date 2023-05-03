@@ -20,9 +20,9 @@ window.onload = () => {
     YaAuthSuggest.init({
          client_id: "a002fa1622dc45c2a1795478f56a48da", 
          response_type: "token",
-         redirect_uri: "https://oauth-master-class-h1do4xldf-eilifirn.vercel.app/token.html"
+         redirect_uri: "https://oauth-master-class-2p0ka47vz-eilifirn.vercel.app/token.html"
       },
-      "https://oauth-master-class-azfqrcjmj-eilifirn.vercel.app"
+      "https://oauth-master-class-2p0ka47vz-eilifirn.vercel.app/"
    )
    .then(({ handler }) => handler())
       .then(async (data) => {
