@@ -36,7 +36,7 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
-    window.YaAuthSuggest.init(
+    YaAuthSuggest.init(
       {
         client_id: "a002fa1622dc45c2a1795478f56a48da",
         response_type: "token",
